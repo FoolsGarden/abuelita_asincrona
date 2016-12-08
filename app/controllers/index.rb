@@ -4,8 +4,7 @@ get '/' do
   # Visita app/views/index.erb
 end
 
-get '/abuelita' do
+post '/abuelita' do
   input = params[:user_input]
   a = Abuela.deaf_grandma(input)
-  redirect to ("/?abuelita=#{a}")
 end

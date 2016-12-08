@@ -2,11 +2,11 @@ class Abuela < ActiveRecord::Base
   # Remember to create a migration!
   def self.deaf_grandma(input)
     if input == "BYE TQM"
-      "D'oh, adios mijito"
+      "Adios mijita"
     elsif input != input.to_s.upcase
       "HUH?! NO TE ESCUCHO, PERLA!"
     else
-      "NO, NO DESDE 1983"
+      "TE VAS A IR AL INFIERNO"
     end
  end
 end
